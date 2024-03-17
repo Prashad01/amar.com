@@ -121,7 +121,7 @@
   }
   
   .navbar.sticky {
-    padding: 15px 0;
+    padding: 8px 0;
     background: #0c0c0c;
   }
   
@@ -143,6 +143,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease;
+    font-size: 23px;
   }
   
   .navbar.sticky .logo a span {
@@ -164,7 +165,7 @@
   }
   
   .navbar .menu li a:hover {
-    color: #1e3551;
+     color: rgb(0, 255, 221);
   }
   
   .navbar.sticky .menu li a:hover {
@@ -183,7 +184,7 @@
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #1e3551;
+    background: #000000;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -236,8 +237,8 @@
   }
   
   .home .home-content .text-2 {
-    font-size: 75px;
-    font-weight: 600;
+    font-size: 65px;
+    font-weight: 800;
     margin-left: -3px;
   }
   
@@ -295,7 +296,7 @@
   }
   
   .about .about-content .left img {
-    height: 400px;
+    height: 450px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
@@ -515,6 +516,7 @@
   /*  Projects  */
   .projects .title::after {
     content: "What I did ?";
+    color: #15f8da;
   }
   
   .projects .carousel .card {
@@ -803,7 +805,11 @@
   footer span a:hover {
     text-decoration: underline;
   }
-  
+ .developer {
+    color: #15f8da;
+    font-weight: 400;
+  }
+
   /*  Media Query  */
   @keyframes pulsate {
     0% {
@@ -916,7 +922,7 @@
       font-size: 50px;
     }
     .home .home-content .text-3 {
-      font-size: 27px;
+      font-size: 25px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text {
