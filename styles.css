@@ -282,7 +282,7 @@
     color: #fff;
   }
   .about .title::after {
-    content: "—Do You Know Who I Am ?—";
+    content: "— Who I Am ?—";
     text-overflow: ellipsis;
     display: -webkit-inline-box;
     -webkit-line-clamp: 3;
